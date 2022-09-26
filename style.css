@@ -398,3 +398,9 @@ footer .footer-link {
 		--spacing-xl: 20px;
 	}
 }
+
+@media (max-width: 600px) {
+	.header .search_section > form > input {
+		width: 150px
+	}
+}
