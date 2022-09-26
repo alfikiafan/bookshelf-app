@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookshelf App</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<link rel="shortcut icon" href="assets/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="book-count">
+					<div class="total_books">
+						<p>total: &nbsp&nbsp<span id="books-count">0</span></p>
+					</div>
+					<div class="total_read">
+						<p>
+							&nbsp&nbsp selesai: &nbsp&nbsp<span id="complete-count">0</span>
+						</p>
+					</div>
+					<div class="total_unread">
+						<p>
+							&nbsp&nbsp belum selesai: &nbsp&nbsp<span id="incomplete-count"
+								>0</span
+							>
+						</p>
+					</div>
+				</div>
+				<h1 class="title">Bookshelf App</h1>
+				<div class="search_section">
+					<form id="searchBook">
+						<input
+							id="inputSearchBook"
+							type="text"
+							placeholder="Cari buku"
+							required
+						/>
+						<button id="searchSubmit" type="submit">Cari</button>
+						<button type="reset" class="reset-button">Reset</button>
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<main class="main container">
+			<div class="add-button">
+				<button class="btn button-add" id="addBookButton">
+					+ Tambahkan buku
+				</button>
+			</div>
+			<div class="book_shelf_incompleted">
+				<h2>Belum Selesai Dibaca<br /></h2>
+				<div id="incompleteBookList" class="book_list"></div>
+			</div>
+
+			<div class="book_shelf_completed">
+				<h2>Telah Selesai Dibaca<br /></h2>
+				<div id="completeBookList" class="book_list"></div>
+			</div>
+			<div class="form-container" id="formContainer">
+				<form class="add-book-form" id="inputBook">
+					<h3>Tambah buku baru</h3>
+					<input
+						class="input"
+						type="text"
+						id="inputBookTitle"
+						placeholder="Judul"
+						required
+					/>
+					<input
+						class="input"
+						type="text"
+						id="inputBookAuthor"
+						placeholder="Penulis"
+						required
+					/>
+					<input
+						class="input"
+						type="number"
+						id="inputBookYear"
+						placeholder="Tahun"
+						required
+					/>
+					<div class="input_inline">
+						<label for="inputBookIsComplete">Sudah dibaca?</label>
+						<input id="inputBookIsComplete" type="checkbox" />
+					</div>
+					<button class="btn button-add-book" type="submit" id="addBookButton">
+						Submit
+					</button>
+				</form>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-text">
+				<a
+					class="footer-link"
+					href="https://github.com/alfikiafan"
+					target="_blank"
+				>
+					Bookshelf App<br />
+					Created by Alfiki (2022)
+				</a>
+			</div>
+		</footer>
+		<div class="overlay" id="overlay"></div>
+	</body>
+</html>
