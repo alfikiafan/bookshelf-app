@@ -33,3 +33,7 @@ Bookshelf Apps memiliki fitur yang memungkinkan pengguna untuk menambahkan data 
 ## Fitur 5: Memanfaatkan localStorage dalam Menyimpan Data Buku
 
 -   Dengan localStorage, data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca"  **dapat bertahan walaupun halaman web ditutup**.
+
+## Fitur 6: Dapat Melakukan Pencarian Buku
+
+- Buku yang ada di rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" dapat dicari dengan mengetikkan nama buku, penulis, atau tahun di kolom pencarian.
