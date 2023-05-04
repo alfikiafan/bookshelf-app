@@ -2,7 +2,8 @@
 
 ## Aplikasi Rak Buku Virtual dengan Pengelolaan Data Menggunakan DOM dan Web Storage
 Website javascript responsif dengan fitur utama menambah buku, menandai belum dibaca, menghapus buku, dan mencari buku.  
-Link GitHub: [Bookshelf App](https://alfikiafan.github.io/Bookshelf-App/)
+Link Website: [Bookshelf App](https://alfikiafan.github.io/Bookshelf-App/)  
+Link Repositori: [GitHub](https://github.com/alfikiafan/Bookshelf-App)
  
 ## Fitur 1: Menambahkan Data Buku
 Bookshelf Apps memiliki fitur yang memungkinkan pengguna untuk menambahkan data buku baru. Data buku yang ditambahkan disimpan dalam objek JavaScript dengan struktur sebagai berikut:
