@@ -211,19 +211,6 @@ function addBook() {
 	saveData();
 }
 
-function moveToCompleteButton() {
-	const inputBookIsComplete = document.getElementById("inputBookIsComplete");
-	inputBookIsComplete.addEventListener("click", function () {
-		if (inputBookIsComplete.checked) {
-			document.getElementById("addBookButton").innerHTML =
-				"<strong>Selesai Dibaca</strong>";
-		} else {
-			document.getElementById("addBookButton").innerHTML =
-				"<strong>Belum Selesai Dibaca</strong>";
-		}
-	});
-}
-
 function searchBook() {
 	const inputSearchBook = document.getElementById("inputSearchBook").value;
 	const bookTitle = document.querySelectorAll("article");
