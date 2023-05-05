@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	inputBookIsComplete.addEventListener("input", function (event) {
-		moveToCompleteButton();
+		moveToCompleted();
 	});
 
 	searchSubmit.addEventListener("click", function (event) {
